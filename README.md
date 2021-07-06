@@ -6,6 +6,7 @@ The cells are also made to be visual, audio, material, haptic... units in order 
 
 Run:
 - https://alivemachine.io/happen/
+- click on functions to open and run them. When they open, 2 or more interfacing window pop up left and right of the seed showing the input (left) and the ouput (right)
 - click "style.css"
 - click "string2img.js"
 - click "apiKeyInput.js"
