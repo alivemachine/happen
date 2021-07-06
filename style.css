@@ -1,0 +1,41 @@
+.seediv{
+font-size:22px;text-align:center;background-color:#333333;color:white;
+height:100px;
+width:100px;
+transition: all .3s ease;background-size:cover;
+}
+.gate{
+height:200px;
+width:100px;
+    
+}
+.gate{
+background-color:white;
+color:black;
+box-shadow: 10px 10px 40px 0 rgba(0,0,0,.8);
+font-size:12px;
+}
+textarea{
+outline:none;border:none;
+border-radius:20px;
+padding:10px;
+}
+.opened{
+font-size:13px;text-align:left;
+background-color:#333333;
+    box-shadow:inset 10px 10px 40px 0 rgba(0,0,0,.8);
+color:white;
+height:200px;
+width:200px;background-blend-mode:hue;
+}
+#confidential{
+background-color:grey;
+padding:20px;
+color:white;
+width:300px;
+}
+.running{
+background-color:white;
+box-shadow:white 0 0 80px;
+color:black;transition:none;
+}
