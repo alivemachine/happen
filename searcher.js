@@ -1,3 +1,4 @@
+//Search the environment for existing examples
 var fullCode = document.body.innerHTML;
 var input = event.target.getAttribute('data-input');
 var result='';

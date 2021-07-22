@@ -1,3 +1,4 @@
+//Loop between Codegen and Search functions
 var input = event.target.getAttribute('data-input');
 if(input!=''){generate();}
 async function generate(){

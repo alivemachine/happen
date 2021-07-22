@@ -1,3 +1,4 @@
+//multiply input value by PI
 var input = event.target.getAttribute('data-input');
 input = parseInt(input)*Math.PI;
 event.target.setAttribute('data-input',input);

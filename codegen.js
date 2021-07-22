@@ -1,3 +1,4 @@
+//Codegen API call
 var urlu = 'https://api.openai.com/v1/engines/davinci-codex/completions';
 var temperature = .6, max_tokens=128,top_p=1,frequency_penalty=0,presence_penalty=0,stop=['####'];
 var seedElement=document.getElementById("codegen.js");

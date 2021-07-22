@@ -1,3 +1,4 @@
+//Create temporary UI for API keys
 var page=document.body;
 if(page.contains(document.getElementById("confidential"))==false){
     var divconf=document.createElement("DIV");  
