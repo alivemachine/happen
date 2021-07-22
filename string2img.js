@@ -7,6 +7,7 @@ for(var t=0;t<ta.length;t++){
     if(ta[t].classList.contains('seediv')&&ta[t].getAttribute('data-content')){
         var c =  randomColor(ta[t].getAttribute('data-content').length);
         ta[t].setAttribute('color',c);
+        ta[t].style.backgroundColor=c;
         ta[t].style.backgroundImage='url("'+string2b64(ta[t].getAttribute('data-content'))+'")';
     }
 }

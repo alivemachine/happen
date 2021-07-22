@@ -6,6 +6,7 @@ font-size:22px;text-align:center;background-color:#333333;color:white;
 height:100px;
 width:100px;
 transition: all .3s ease;background-size:cover;
+background-blend-mode:soft-light;
 }
 .gate{
 height:200px;
@@ -29,7 +30,7 @@ background-color:#333333;
     box-shadow:inset 10px 10px 40px 0 rgba(0,0,0,.8);
 color:white;
 height:200px;
-width:200px;background-blend-mode:hue;
+width:200px;background-repeat:none;background-size:0;
 }
 #confidential{
 background-color:grey;
