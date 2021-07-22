@@ -20,6 +20,7 @@ async function github(url){
           })
         .catch((error) => {
           console.error('Error:', error);
+          resolve(error);
         });
     });
 }
