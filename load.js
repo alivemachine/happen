@@ -1,7 +1,7 @@
 ﻿var allContents=[];
 window.onload =  async function() {
     var data = await github('https://api.github.com/repos/alivemachine/happen/contents/')
-    readContents(data.replace('ï»¿',''));
+    readContents(data);
 };
 async function importRepo(){
     if(event!=undefined){
@@ -35,7 +35,7 @@ async function readContents(seeds){
         for(var s=0;s<seeds.length;s++){
             var file = seeds[s];
             var obj = await github(file.url);
-            seeds[s]=obj;
+            seeds[s]=obj.replace('ï»¿','');
             allContents[s]=obj;
             newSeed(obj);
         }
