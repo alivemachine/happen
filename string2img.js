@@ -1,3 +1,4 @@
+//add unique colors and textures to functions
 var ta = document.getElementsByTagName('TEXTAREA');
 var canvas = document.createElement('canvas');
 var gl = canvas.getContext('webgl');
