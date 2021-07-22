@@ -3,7 +3,14 @@ window.onload =  async function() {
     var data = await github('https://api.github.com/repos/alivemachine/happen/contents/')
     readContents(data);
 };
-
+async function importRepo(){
+    if(event!=undefined){
+        var input = event.target.getAttribute('data-input');
+        var data = await github('https://cors-anywhere.herokuapp.com/'+input);
+        readContents(data);
+    }
+}
+importRepo();
 async function github(url){
     return new Promise(resolve => {
         fetch(url)
@@ -142,4 +149,3 @@ function makeArea(seedName, areaName){
     }
     
 }
-
